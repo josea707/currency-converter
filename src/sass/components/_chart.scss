@@ -1,0 +1,11 @@
+.chart-container {
+  &__buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+    button {
+      padding-top: 1rem;
+      flex: 1 1 25%;
+    }
+  }
+}

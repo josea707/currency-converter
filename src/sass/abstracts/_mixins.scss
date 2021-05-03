@@ -1,0 +1,11 @@
+@mixin respond-tablet {
+  @media only screen and (min-width: $breakpoint-tablet) {
+    @content;
+  }
+}
+
+@mixin respond-pc {
+  @media only screen and (min-width: $breakpoint-pc) {
+    @content;
+  }
+}

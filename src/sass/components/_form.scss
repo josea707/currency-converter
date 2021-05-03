@@ -1,0 +1,14 @@
+form {
+  line-height: 1.6;
+}
+
+input[type='text'],
+input[type='number'],
+select {
+  border: 2px solid $color-primary-light;
+  border-radius: 10px;
+  box-shadow: $box-shadow-primary;
+  &:focus {
+    border-bottom: 3px solid $color-primary;
+  }
+}

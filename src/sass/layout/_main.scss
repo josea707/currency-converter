@@ -1,0 +1,13 @@
+.main-container {
+  width: 95%;
+  margin: 4rem auto;
+  background-color: $color-white;
+  box-shadow: $color-black;
+  min-height: 70rem;
+  @include respond-tablet {
+    width: 80%;
+  }
+  @include respond-tablet {
+    max-width: $breakpoint-pc;
+  }
+}

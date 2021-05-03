@@ -1,0 +1,61 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 1.4rem;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.margin-top {
+  margin-top: 2rem;
+}
+
+.display {
+  visibility: visible;
+  opacity: 1;
+  max-height: none;
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+  max-height: 0;
+}
+
+.danger {
+  color: $color-danger;
+}
+
+.margin-top-bottom {
+  margin: 1rem 0;
+}
+@include respond-tablet {
+  body {
+    font-size: 1.8rem;
+  }
+}

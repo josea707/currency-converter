@@ -1,0 +1,19 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  &:last-child {
+    a {
+      padding: 0 1rem;
+    }
+  }
+}
+
+.row.center {
+  justify-content: center;
+}
+
+.row.center.column {
+  flex-direction: column;
+}

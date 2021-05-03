@@ -1,0 +1,78 @@
+/* Exchange */
+.exchange-container {
+  margin-top: 0.5rem;
+  padding: 2rem;
+  background: linear-gradient(
+    to left top,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.5)
+  );
+  border-radius: 1rem;
+  box-shadow: 20px 20px 20px 20px rgba(122, 122, 122, 0.212);
+  &__form {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    & > div {
+      width: inherit;
+      margin: 0.5rem 0;
+      display: flex;
+      flex-direction: column;
+    }
+    &--search,
+    &--select {
+      padding-left: 0.5rem;
+      height: 4rem;
+    }
+    &--button {
+      margin: 1.5rem 0;
+      flex: 1 0 25%;
+      align-self: center;
+    }
+    &--submit {
+      margin: 2rem 0;
+      width: 50%;
+      align-self: center;
+    }
+  }
+
+  &__result {
+    &--exchange {
+      margin-top: 1rem;
+    }
+    p {
+      font-size: 1.2rem;
+      margin: 1rem 0;
+    }
+  }
+  &__result.display {
+    animation-duration: 4s;
+    animation-name: heightIncrease;
+    margin-top: 2rem;
+  }
+
+  @include respond-tablet {
+    &__form {
+      flex-direction: row;
+      justify-content: space-between;
+      & > div {
+        width: 100%;
+        margin: 0 0.5rem;
+      }
+      &--button,
+      &--submit {
+        margin-bottom: 0.5rem;
+        flex: 0;
+        width: 8rem;
+        height: 4rem;
+        align-self: flex-end;
+      }
+    }
+    &__result {
+      p {
+        font-size: 1.6rem;
+      }
+    }
+  }
+}
