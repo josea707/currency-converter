@@ -12,7 +12,7 @@ const Footer = () => {
           <i className='fab fa-linkedin-in fa-2x'></i>
         </a>
         <a
-          href='https://github.com/josea707/exchange-currency'
+          href='https://github.com/josea707/currency-converter'
           className='padding-container'
         >
           <i className='fab fa-github fa-2x'></i>
