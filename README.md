@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Currency Converter
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Website: https://master.d13rd807otbekj.amplifyapp.com/chart/
 
 ## Available Scripts
 
