@@ -4,7 +4,7 @@ React application that allows users to check the exchange rate of a desired curr
 
 ## Demo Website 
 
-https://master.d13rd807otbekj.amplifyapp.com/chart/
+https://master.d13rd807otbekj.amplifyapp.com
 
 ## API Used
 
